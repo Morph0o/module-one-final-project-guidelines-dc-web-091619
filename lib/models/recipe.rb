@@ -1,12 +1,12 @@
-class Recipe < ActiveRecord
+class Recipe < ActiveRecord::Base
 has many :recipe_ingredients 
 has many : ingredients, through: :recipe_ingredients
-@@all= []
+attr_reader :name,:ingredients,:description
 
-def initialize(name,ingredients)
+def initialize(name,description)
     @name = name
-    @ingredents = ingredients
-    @@all << self
+    @description = description
+end  
 
 
 end
