@@ -1,9 +1,13 @@
-source “https://rubygems.org”
+# frozen_string_literal: true
 
-gem “rspec”
-gem “sinatra-activerecord”
-gem “sqlite3", ‘~>1.3.6’
-gem “rake”
-gem “database_cleaner”
-gem “pry”
-gem “activerecord”, “~> 5.2.3”
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+gem "sinatra-activerecord"
+gem "sqlite3"
+gem "rake"
+gem "database_cleaner"
+gem "pry"
+
+# gem "rails"
