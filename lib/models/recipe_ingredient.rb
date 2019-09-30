@@ -1,4 +1,4 @@
-class recipe_ingredient
+class recipe_ingredient < ActiveRecord
     belongs to :ingredient
     belongs to :recipe 
 

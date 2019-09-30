@@ -1,4 +1,4 @@
-class Recipe
+class Recipe < ActiveRecord
 has many :recipe_ingredients 
 has many : ingredients, through: :recipe_ingredients
 @@all= []
