@@ -1,0 +1,2 @@
+class recipe_ingredient
+end
