@@ -3,7 +3,6 @@ has many :recipe_ingredients
 has many :recipes, through: :recipe_ingredients
 has many :ingredient_users
 has many :users, through: :ingredient_users
-@@all = []
 attr_reader :name, :calories 
 
 def initialize (name,calories)
