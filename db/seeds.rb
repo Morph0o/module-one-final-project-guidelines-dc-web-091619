@@ -1,7 +1,7 @@
  Ingredient.destroy_all
  Recipe.destroy_all
  RecipeIngredient.destroy_all
- 
+
  bread = Ingredient.create(name:"Bread")
  blackbeans = Ingredient.create(name:"Black Beans")
  rice = Ingredient.create(name: "Rice")
@@ -68,6 +68,7 @@ RecipeIngredient.create(recipe: grilledcheese, ingredient: bread)
 RecipeIngredient.create(recipe: grilledcheese, ingredient: cheese)
 RecipeIngredient.create(recipe: grilledcheese, ingredient: mayo)
 RecipeIngredient.create(recipe: grilledcheese, ingredient: butter)
+RecipeIngredient.create(recipe: grilledcheese, ingredient: pasta)
 RecipeIngredient.create(recipe: maccheese, ingredient: pasta)
 RecipeIngredient.create(recipe: maccheese, ingredient: cheese)
 RecipeIngredient.create(recipe: maccheese, ingredient: butter)
