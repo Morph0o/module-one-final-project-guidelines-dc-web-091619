@@ -37,3 +37,12 @@ Take 1/4 cup of the sauce and slowly pour it into the beaten egg, whisking const
 Pour in the drained, cooked macaroni and stir to combine. Serve immediately (while it's still very creamy) or pour into a buttered baking dish, top with extra cheese and bake until bubbly and golden on top, 20 to 25 minutes.")
 carrotmash = Recipe.new("Carrot Mash","Preheat oven to 425. Take 3 tomatoes dice into blender Cover with olive oil, blend. Lay carrots habenero peppers and garlic cloves in baking dish and cover with tomatoe oil sauce let bake till vegetables are roasted. take out of oven and mash untill chunky")
 tomatoe_sandwhich = Recipe.new("Tomatoe Sandwhich","Take 2 slices of bread. slather with mayo. put slices to over bread salt and pepper put together")
+tuna_tacos = Recipe.new("Tuna Tacos w/pineapple","Sear tuna steak on medium heat till golden brown, sear pineapple on medium heat transfer to tortias")
+tomato_soup = Recipe.new("Tomatoe Soup","To begin, dice the onion. Melt the butter in a large pot or Dutch oven. Throw in the onion and cook until translucent.
+Now dump in the diced tomatoes and stir to combine. Add the tomato juice.
+Next - and this is important - in order to combat the acidity of the tomatoes add 3 to 6 tablespoons of sugar. Now, you'll want to start on the low side, then taste and add more as needed. Some tomatoes and juice have more of an acidic bite than others. (For what it's worth, and I realize it's not worth much, I use 6 tablespoons of sugar.)
+Next, add 1 or 2 tablespoons chicken base to the pot. I added 3, and it wound up being a little too much.
+Now you can add lots of freshly ground black pepper. Stir to combine, then heat almost to a boil. Then turn off the heat.
+Add in the sherry if desired. Stir in the cream. Add the basil and parsley and stir.
+Serve the soup warm!")
+chilie = Recipe.new("Chilie","")
