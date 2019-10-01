@@ -45,4 +45,7 @@ Next, add 1 or 2 tablespoons chicken base to the pot. I added 3, and it wound up
 Now you can add lots of freshly ground black pepper. Stir to combine, then heat almost to a boil. Then turn off the heat.
 Add in the sherry if desired. Stir in the cream. Add the basil and parsley and stir.
 Serve the soup warm!")
-chilie = Recipe.new("Chilie","")
+chilie = Recipe.new("Chilie"," Combine ground beef and 1 1/2 tablespoons chili powder.
+In a large pot, brown ground beef, onion, jalapeno, and garlic. Drain any fat.
+Add in remaining ingredients and bring to a boil. Reduce heat and simmer uncovered 45-60 minutes or until chili has reached desired thickness.
+Top with cheddar cheese, green onions, cilantro or other favorite toppings.")
