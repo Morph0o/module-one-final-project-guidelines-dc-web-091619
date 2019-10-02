@@ -3,6 +3,12 @@ require_relative './ingredient.rb'
 require_relative './recipe_ingredients.rb'
 
 class Cli
+
+    def get_user
+        puts "What's your name?"
+        name = gets.chomp
+        @user = User.find_or_create_by(name: name)
+    end
     
     def prompt_ingredient
         puts "Would you like to add more ingredients? PRESS I"
