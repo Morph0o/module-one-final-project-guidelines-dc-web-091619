@@ -6,6 +6,7 @@ cli = Cli.new
 
     puts "Welcome to the Fridge"
     puts "this is a app where you find what you can make based on ingredients you have"
+    cli.get_user
     puts "please input ingredients with a coma between"
     user_input = gets.chomp
     list = user_input.split(",")        
