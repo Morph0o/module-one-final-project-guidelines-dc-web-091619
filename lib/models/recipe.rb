@@ -4,19 +4,16 @@ has_many :ingredients, through: :recipe_ingredients
 
 
 def self.find_recipes(array)
-        ri = []
-        find = ""
+    ri = []
+    find = ""
         Recipe.all.each do |recipe|
-          
-                
-            find = recipe.ingredients.any? {|ri| array.include?(ri.name)}
-        
-           if find
-           ri << recipe
+        find = recipe.ingredients.any? {|ri| array.include?(ri.name)}
+            if find
+                ri << recipe
             end
     
         end
-        ri
+    ri
 end
 
 
