@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_02_194835) do
+ActiveRecord::Schema.define(version: 2019_10_02_190626) do
 
-  create_table "ingredient_user", force: :cascade do |t|
+  create_table "ingredient_users", force: :cascade do |t|
     t.integer "user_id"
     t.integer "ingredient_id"
   end
