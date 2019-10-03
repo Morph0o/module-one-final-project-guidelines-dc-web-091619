@@ -20,9 +20,14 @@ class Cli
         end
         puts "Please add ingredient one at a time from list of ingredients"
         ing_input = gets.chomp
-        ing_id = Ingredient.find_by(name: ing_input)
-        
-        IngredientUser.create(user_id: @user.id, ingredient_id:ing_id.id)
+        cap_input = ing_input.capitalize
+        ing = Ingredient.find_by(name: cap_input)
+        if ing
+            IngredientUser.create(user_id: @user.id, ingredient_id:ing.id)
+        else  
+            puts "not an ingredient"
+            self.prompt_ingredient
+        end
         puts "Would you like to add more ingredients? PRESS I"
         puts "Would you like recipes? PRESS R"
         decision = gets.chomp
@@ -30,6 +35,7 @@ class Cli
             puts "What ingredient would you like to add?"
             self.prompt_ingredient
         elsif decision.downcase == "r"
+            system "clear"
 
             found_recipes = Recipe.find_recipes(@user)
            
