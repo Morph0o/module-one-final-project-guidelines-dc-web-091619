@@ -15,10 +15,10 @@ class Cli
     end
     
     def prompt_ingredient
-        puts "Please add ingredient one at a time from list of ingredients"
         Ingredient.all.each do |i|
         puts "#{i.name}"
         end
+        puts "Please add ingredient one at a time from list of ingredients"
         ing_input = gets.chomp
         ing_id = Ingredient.find_by(name: ing_input)
         
@@ -36,7 +36,7 @@ class Cli
             found_recipes.each do |fr|
             puts "Name: #{fr.name}
             Description: #{fr.description}
-            ----------------------------------------------------------------------------------" 
+            ---------------------------------------------------------------------------------------------" 
            end
         else
             puts "That is not a command. Please enter 'I' to add more Ingredients or 'R' to find Recipes"
