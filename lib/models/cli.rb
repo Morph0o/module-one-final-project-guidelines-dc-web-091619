@@ -8,6 +8,7 @@ class Cli
 
 
     def get_user
+        User.destroy_all
         puts "What's your name?"
         name = gets.chomp
         @user = User.find_or_create_by(name: name)
