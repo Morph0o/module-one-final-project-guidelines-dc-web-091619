@@ -17,16 +17,14 @@ olive_oil = Ingredient.create(name: "Olive oil")
 mayo = Ingredient.create(name: "Mayonase")
 tuna = Ingredient.create(name: "Tuna")
 pineapple = Ingredient.create(name: "Pineapple")
-potatoe = Ingredient.create(name: "Potatoe")
-kale = Ingredient.create(name: "Kale")
 bay_leaf = Ingredient.create(name: "Bay leaf")
-red_pepper = Ingredient.create(name: "Red Peppers")
+red_pepper = Ingredient.create(name: "Red peppers")
 cumin = Ingredient.create(name: "Cumin")
 oregano = Ingredient.create(name: "Oregano")
 pepper = Ingredient.create(name: "Pepper")
 salt = Ingredient.create(name: "Salt") 
 cayenne = Ingredient.create(name: "Cayenne")
-blackbeans_and_rice = Recipe.create(name: "Blackbeans and Rice", description: "oak beans overnight to soften and remove any small hard stones. The next day, strain and rinse soaked beans with fresh water.
+blackbeans_and_rice = Recipe.create(name: "Blackbeans and Rice", description: "Soak beans overnight to soften and remove any small hard stones. The next day, strain and rinse soaked beans with fresh water.
 To cook beans, place in a large pot and add enough water to cover the beans by two inches. Carefully smash whole garlic cloves with the back of a knife and add to the pot of beans alone with 2 of the bay leaves.
 Bring pot to a boil then reduce heat to low and simmer until tender (90 minutes or up to two hours.) Set aside once cooked.
 Next, in a large Dutch oven, heat olive oil over medium high heat and sauté onions, peppers and garlic. Add spices (salt through cayenne) and continue stirring until vegetables have softened, 4-6 minutes.
