@@ -76,3 +76,17 @@ Having built your project on your own with a partner, you are the expert on it! 
 # in config/environment.rb add this line:
 ActiveRecord::Base.logger = nil
 ```
+
+
+THE FRIDGE README
+
+
+WHAT IS THE FRIDGE?
+the fridge is a app that lets you find recipes based on ingredients you have in the fridge.
+
+How DOES IT WORK?
+1. Enter a user name.
+2. Enter ingredients one by one.
+3. Find recipes or and more ingredients
+
+Thanks for using.
