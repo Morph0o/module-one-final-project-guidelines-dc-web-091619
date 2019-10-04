@@ -26,6 +26,10 @@ oregano = Ingredient.create(name: "Oregano")
 pepper = Ingredient.create(name: "Pepper")
 salt = Ingredient.create(name: "Salt") 
 cayenne = Ingredient.create(name: "Cayenne")
+white_wine = Ingredient.create(name: "White Wine")
+beef_stock = Ingredient.create(name: "Beef Stock")
+flour = Ingredient.create(name: "Flour")
+cognac = Ingredient.create(name: "Cognac")
 blackbeans_and_rice = Recipe.create(name: "Blackbeans and Rice", description: "oak beans overnight to soften and remove any small hard stones. The next day, strain and rinse soaked beans with fresh water.
 To cook beans, place in a large pot and add enough water to cover the beans by two inches. Carefully smash whole garlic cloves with the back of a knife and add to the pot of beans alone with 2 of the bay leaves.
 Bring pot to a boil then reduce heat to low and simmer until tender (90 minutes or up to two hours.) Set aside once cooked.
@@ -53,6 +57,7 @@ chilie = Recipe.create(name: "Chilie",description: "Combine ground beef and 1 1/
 In a large pot, brown ground beef, onion, jalapeno, and garlic. Drain any fat.
 Add in remaining ingredients and bring to a boil. Reduce heat and simmer uncovered 45-60 minutes or until chili has reached desired thickness.
 Top with cheddar cheese, green onions, cilantro or other favorite toppings.")
+french_onion_soup = Recipe.create(name: "French Onion Soup", description: "Cut 5 big onions in half, cutting away from the opposite end of the root.  Add a splash of olive_oil in a big pot, and one tablespoon of butter.  Place all the chopped onions into the pott and add salt.  Cook the onions until caramelized, then add a glass of white wine to deglaze.  Add 1 tablespoon of flour, followed by a liter of beef stock.  Let simmer for 20 minutes.  Optional, add a dash of cognac to improve the flavor.  When the soup is ready, pour into 2 ovenproof bowls for the final preparations.  Grill two slices of bread, and spread a clove of garlic on each.  Place the bread atop the soup, and grate a copious amount of cheese on top.  Set the oven to broil mode and place the bowls inside for 1 - 2 minutes, so as to allow the cheese to melt.  Let cool for 2-3 minutes and enjoy!")
 
 RecipeIngredient.create(recipe: blackbeans_and_rice, ingredient: blackbeans)
 RecipeIngredient.create(recipe: blackbeans_and_rice, ingredient: garlic)
@@ -96,3 +101,13 @@ RecipeIngredient.create(recipe: chilie, ingredient: garlic)
 RecipeIngredient.create(recipe: chilie, ingredient: tomatoe)
 RecipeIngredient.create(recipe: chilie, ingredient: red_pepper)
 RecipeIngredient.create(recipe: chilie, ingredient: cumin)
+RecipeIngredient.create(recipe: french_onion_soup, ingredient: onion)
+RecipeIngredient.create(recipe: french_onion_soup, ingredient: olive_oil)
+RecipeIngredient.create(recipe: french_onion_soup, ingredient: butter)
+RecipeIngredient.create(recipe: french_onion_soup, ingredient: salt)
+RecipeIngredient.create(recipe: french_onion_soup, ingredient: white_wine)
+RecipeIngredient.create(recipe: french_onion_soup, ingredient: flour)
+RecipeIngredient.create(recipe: french_onion_soup, ingredient: beef_stock)
+RecipeIngredient.create(recipe: french_onion_soup, ingredient: cognac)
+RecipeIngredient.create(recipe: french_onion_soup, ingredient: bread)
+RecipeIngredient.create(recipe: french_onion_soup, ingredient: cheese)
